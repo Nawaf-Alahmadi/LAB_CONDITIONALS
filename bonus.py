@@ -3,7 +3,6 @@ userHeight:float = float(input("Enter Your Height (Meter):"))
 
 bmi:float = userWieght / (userHeight ** 2 )
 
-print(bmi)
 if bmi < 18.5:
     print("You are underweight. Watch your health.")
 elif bmi < 24.9:
